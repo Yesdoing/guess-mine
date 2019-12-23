@@ -4,6 +4,6 @@
 ### To Do:
 
 - [x] Server
-- [ ] Pug
-- [ ] Static
+- [x] Pug
+- [x] Static
 - [ ] SocketIO
