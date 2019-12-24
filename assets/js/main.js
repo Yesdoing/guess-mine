@@ -1,3 +1,5 @@
+import { handleMessageNotification } from './chat';
+
 
 const socket = io("/");
 
@@ -10,9 +12,6 @@ function setNickname(nickname) {
   socket.emit("setNickname", { nickname });
 }
 
-function handleMessageNotification(data) {
-  const { message, nickname } = data;
-  console.log(`${nickname}: ${message}`);
-}
+
 
 socket.on("messageNotification", handleMessageNotification);

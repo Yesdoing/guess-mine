@@ -1,5 +1,14 @@
-$color: red;
+$color: blue;
+
+@keyframes sexy {
+  from {
+    color: red;
+  }
+  to {
+    color: blue;
+  }
+}
 
 body {
-  background-color: $color;
+  background-color: yellow;
 }
